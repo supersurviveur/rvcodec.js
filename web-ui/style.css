@@ -56,6 +56,22 @@
     background-color: var(--color-hl);
 }
 
+:root {
+    font-size: 18px;
+}
+
+@media (min-width: 1200px) {
+    :root {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1400px) {
+    :root {
+        font-size: 22px;
+    }
+}
+
 /* Body */
 body {
     font-size: 1rem; /* font size for serach input and displayed result*/
@@ -107,6 +123,7 @@ body {
     position: relative;
     display: block;
     color: var(--color-fg);
+    font-size: 0.8em;
 }
 
 #search-modal-results {
@@ -318,6 +335,7 @@ body {
     height: fit-content;
     width: max-content;
     transition: background-color 400ms linear;
+    letter-spacing: 0.10rem;
 }
 
 /* No separate between every 16 bits when the screen is wide */
@@ -426,7 +444,6 @@ body {
 
     /* --bit-color defined dynamically by script */
     color: var(--bit-color);
-    margin-right: 0.12rem;
 }
 
 /* Binary tooltip conversion */
