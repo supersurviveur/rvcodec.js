@@ -4024,8 +4024,6 @@ export const ISA_Subsets = {
 // and why (some drafts, or parts of them, are skipped with a reason
 // noted at their definition site).
 export const ISA_UnratifiedSubsets = {
-  // P (packed-SIMD/DSP): still in progress - only its OP-32 (no register-
-  // pair) packed arithmetic is implemented so far
   P: ISA_P,
   Zbp: ISA_Zbp,
   Zalasr: ISA_Zalasr,
